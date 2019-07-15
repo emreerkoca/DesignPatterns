@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2019
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionExample", "Example\DependencyInversionExample.csproj", "{775A0567-351E-493D-91A7-C04CCF90504A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionExample", "..\DependencyInversionExample\DependencyInversionExample.csproj", "{775A0567-351E-493D-91A7-C04CCF90504A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDesignPatternSample", "..\AbstractFactoryDesignPatternSample\AbstractFactoryDesignPatternSample.csproj", "{35DE0405-367E-4576-89D0-94A38CEEC10E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +17,15 @@ Global
 		{775A0567-351E-493D-91A7-C04CCF90504A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{775A0567-351E-493D-91A7-C04CCF90504A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{775A0567-351E-493D-91A7-C04CCF90504A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DE0405-367E-4576-89D0-94A38CEEC10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DE0405-367E-4576-89D0-94A38CEEC10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DE0405-367E-4576-89D0-94A38CEEC10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DE0405-367E-4576-89D0-94A38CEEC10E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B2081A5E-0D3C-413D-B972-95FEC535E70B}
+		SolutionGuid = {27CF18DC-CBEF-43ED-B169-10CC6C62B641}
 	EndGlobalSection
 EndGlobal
