@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPatternSample
 {
-    class Gun
+    public abstract class Gun
     {
     }
 }

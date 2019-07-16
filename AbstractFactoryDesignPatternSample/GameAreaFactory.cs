@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPatternSample
 {
-    public abstract class Warrior
+    public abstract class GameAreaFactory
     {
-        public abstract void UseGun(Gun gun);
+        public abstract Warrior CreateWarrior();
+        public abstract Gun CreateGun();
     }
 }
