@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPatternSample
 {
-    public abstract class GameAreaFactory
+    public abstract class AreaFactory
     {
         public abstract Warrior CreateWarrior();
         public abstract Gun CreateGun();

@@ -6,30 +6,29 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPatternSample
 {
-    class WorldAreaFactory : GameAreaFactory
+    class SpaceAreaFactory : AreaFactory
     {
         public override Gun CreateGun()
         {
-            return new ShotGun();
+            return new BeamGun();
         }
 
         public override Warrior CreateWarrior()
         {
-            return new Soldier();
+            return new Alien();
         }
     }
 
-    class ShotGun : Gun
+    class BeamGun : Gun
     {
-
+        
     }
 
-    class Soldier : Warrior
+    class Alien : Warrior
     {
         public override void UseGun(Gun gun)
         {
             Console.WriteLine(this.GetType().Name + " uses " + gun.GetType().Name);
         }
     }
-
 }

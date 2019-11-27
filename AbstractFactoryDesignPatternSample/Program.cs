@@ -10,13 +10,14 @@ namespace AbstractFactoryDesignPatternSample
     {
         static void Main(string[] args)
         {
-            GameAreaFactory space = new SpaceAreaFactory();
-            GameCreator gameCreator = new GameCreator(space);
-            gameCreator.StartWar();
+            AreaFactory space = new SpaceAreaFactory();
+            GameCreator spaceAreaCreator = new GameCreator(space);
 
-            GameAreaFactory world = new WorldAreaFactory();
-            gameCreator = new GameCreator(world);
-            gameCreator.StartWar();
+            AreaFactory world = new WorldAreaFactory();
+            GameCreator worldAreaCreator = new GameCreator(world);
+
+            worldAreaCreator.StartWar();
+            spaceAreaCreator.StartWar();
 
             Console.ReadLine();
         }

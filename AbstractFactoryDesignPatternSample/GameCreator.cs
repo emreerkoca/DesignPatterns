@@ -11,7 +11,7 @@ namespace AbstractFactoryDesignPatternSample
         private Gun _gun;
         private Warrior _warrior;
 
-        public GameCreator(GameAreaFactory gameAreaFactory)
+        public GameCreator(AreaFactory gameAreaFactory)
         {
             _gun = gameAreaFactory.CreateGun();
             _warrior = gameAreaFactory.CreateWarrior();
