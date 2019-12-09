@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionExample"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDesignPatternSample", "..\AbstractFactoryDesignPatternSample\AbstractFactoryDesignPatternSample.csproj", "{35DE0405-367E-4576-89D0-94A38CEEC10E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPatternSample", "BuilderDesignPatternSample\BuilderDesignPatternSample.csproj", "{59F7F828-A384-4E30-8CFA-7672641B74F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDesignPatternSample", "BuilderDesignPatternSample\BuilderDesignPatternSample.csproj", "{59F7F828-A384-4E30-8CFA-7672641B74F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesignPatternSample", "PrototypeDesignPatternSample\PrototypeDesignPatternSample.csproj", "{C1848B35-99CE-4848-BF10-D4181588FCBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{59F7F828-A384-4E30-8CFA-7672641B74F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F7F828-A384-4E30-8CFA-7672641B74F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F7F828-A384-4E30-8CFA-7672641B74F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1848B35-99CE-4848-BF10-D4181588FCBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1848B35-99CE-4848-BF10-D4181588FCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1848B35-99CE-4848-BF10-D4181588FCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1848B35-99CE-4848-BF10-D4181588FCBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
